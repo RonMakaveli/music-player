@@ -101,3 +101,7 @@ section{
     font-size: 14px;
     color: rgba(159,160,164,255);
 }
+
+.audio{
+    background-color: none;
+}
