@@ -55,6 +55,17 @@ section{
     min-width: 400px;
     border-radius: 50px;
     backdrop-filter: var(--backdrop-filter-blur);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cover-content{
+    margin-top: 20px;
+    width: 370px;
+    height: 370px;
+    border-radius: 40px;
 }
 
 
