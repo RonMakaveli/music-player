@@ -51,14 +51,14 @@ body::before{
 section{
     background-color: var(--white-alpha-25);
     border: 1px solid var(--white-alpha-40);
-    min-height: calc(60vh);
+    min-height: calc(90vh);
     min-width: 400px;
     border-radius: 50px;
     backdrop-filter: var(--backdrop-filter-blur);
     display: flex;
-    align-items: flex-start;
-    flex-direction: row;
-    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
 }
 
 .cover-content{
