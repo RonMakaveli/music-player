@@ -9,9 +9,9 @@
 :root{
     --white: #ffffff;
     --soft-grey: #c0c0c0;
-    --middle-grey: #969696;
+    --dark-grey: #636363;
     --white-alpha-40: rgba(255, 255, 255, 0.40);
-    --white-alpha-25: rgba(255, 255, 255, 0.25);
+    --white-alpha-25: rgba(0, 0, 0, 0.548);
 
 }
 
@@ -21,7 +21,7 @@
 
 body{
     min-height: 100vh;
-    background-image: linear-gradient(to bottom, var(--soft-grey), var(--middle-grey));
+    background-image: linear-gradient(to bottom, var(--soft-grey), var(--dark-grey));
     background-attachment: fixed;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
@@ -32,6 +32,9 @@ body{
     -webkit-tap-highlight-color: transparent;
     padding: 35px 15px;
     overscroll-behavior: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 body::before{
@@ -48,8 +51,9 @@ body::before{
 section{
     background-color: var(--white-alpha-25);
     border: 1px solid var(--white-alpha-40);
-    min-height: calc(100vh - 70px);
-    border-radius: 30px;
+    min-height: calc(60vh);
+    min-width: 400px;
+    border-radius: 50px;
     backdrop-filter: var(--backdrop-filter-blur);
 }
 
