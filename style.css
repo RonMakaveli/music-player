@@ -1,9 +1,26 @@
+/* Configurações gerais */
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+:root{
+    --cyan-light: #c2ffff;
+    --white: #ffffff;
+    --white-alpha-40: rgba(255, 255, 255, 0.40);
+    --white-alpha-25: rgba(255, 255, 255, 0.25);
+
+}
+
+::before, ::after{
+    box-sizing: border-box;
+}
+
 body{
     width: inherit;
+    background-image: linear-gradient(to bottom, var(), var(--cyan-light));
+    background-size: cover;
+    filter: blur(1px); 
 }
